@@ -14,6 +14,11 @@ namespace _21_Ejercicio_Repaso_03
         static void Main(string[] args)
         {
             //Introduce aquí tu código
+            for (int i=20; i>=10; i=i-1)
+            {
+                Console.WriteLine(i);
+                Console.WriteLine();
+            }
         }
     }
 }

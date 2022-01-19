@@ -10,6 +10,12 @@ namespace _19_Ejercicio_Repaso_01
         static void Main(string[] args)
         {
             // Tu código aquí
+            Console.WriteLine("Cuántos años tienes?");
+            int edad = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= edad; i++)
+            {
+                Console.WriteLine("Feliz cumpleaños!");
+            }
         }
     }
 }

@@ -15,6 +15,15 @@ namespace _23_Ejercicio_Repaso_05
         static void Main(string[] args)
         {
             //Introduce aquí tu código
+            int operacion;
+            for (int i = 1; i <= 12; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    operacion = i * i * i;
+                } else { operacion = i * i; }
+                Console.WriteLine(i + "\t" + operacion);
+            }
         }
     }
 }

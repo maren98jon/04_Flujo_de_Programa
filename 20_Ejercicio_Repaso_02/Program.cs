@@ -14,6 +14,14 @@ namespace _20_Ejercicio_Repaso_02
         static void Main(string[] args)
         {
             //Introduce aquí tu código
+            Console.WriteLine("Introduce un número:");
+            int num = Convert.ToInt32(Console.ReadLine());
+            int suma = 0;
+            for (int i = 1; i <= num; i++)
+            {
+                suma = suma + i;
+            }
+            Console.WriteLine("La suma de todos sus números es igual a " + suma);
         }
     }
 }

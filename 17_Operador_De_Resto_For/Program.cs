@@ -24,7 +24,7 @@ namespace _17_Operador_De_Resto_For
 
             // Bucle que se repite mientras la variable i (que empieza con un valor de 1) sea menor o igual que 100.
             // Cada vez que el código se repite, se le añade 1 a i
-            for (int i = 1; i <= 100; i = i + 1)
+            for (int i = 1; i <= 100; i++)
             {
                 if (i % 6 == 0) // Si el valor actual de i en la repetición del bucle es múltiplo de 6
                 {

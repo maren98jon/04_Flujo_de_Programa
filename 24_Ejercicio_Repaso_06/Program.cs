@@ -16,7 +16,23 @@ namespace _24_Ejercicio_Repaso_06
     {
         static void Main(string[] args)
         {
-            //Introduce aquí tu código   
+            //Introduce aquí tu código
+            int numero;
+            do
+            {
+                Console.WriteLine("Introduce un número");
+                string txtnumero = Console.ReadLine();
+                numero = Convert.ToInt32(txtnumero);
+                int longitud = txtnumero.Length;
+                for (int i =longitud-1; i>=0; i=i-1)
+                {
+                    Console.Write(txtnumero.Substring(i, 1));
+                }
+                Console.WriteLine();
+                 
+
+            } while (numero != 0);
+           
         }
     }
 }

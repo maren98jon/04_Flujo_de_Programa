@@ -12,6 +12,13 @@ namespace _13_Ejercicio_While
         static void Main(string[] args)
         {
             // Tu código aquí
+            int numero = 10;
+            while (numero != -1) { 
+            
+                Console.WriteLine(numero);
+                numero = numero - 1;
+            }
+            Console.WriteLine("¡Despegue!");
         }
     }
 }
